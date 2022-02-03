@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f28e00;
+    padding: 26px;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+    -ms-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 4px rgba(73, 38, 38, 0.5);
+    -o-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+}
+
+#btcExchange {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    margin: 12px 0px;
+    width: 321px;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 50%);
+}
+
+th {
+    border-top: solid 1px #999;
+    border-bottom: solid 3px #111111;
+    padding: 10px;
+    letter-spacing: 0.1em;
+}
+
+td {
+    padding: 6px;
+    text-align: center;
+}
+
+.datas {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: #999;
+}
+
+@media(min-width: 768px) {
+    
+    #btcExchange {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    table {
+        margin: 5px;
+    }
+}
+
+
+
+
