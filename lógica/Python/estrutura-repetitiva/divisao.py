@@ -7,8 +7,8 @@ for i in range(0, n):
     numerador = int(input('Entre com um numerador: '))
     denominador = int(input('Entre com um denominador: '))
 
-    if numerador < 0:
+    if denominador == 0:
         print('DIVISAO IMPOSSIVEL') 
     else:
-        divisao = numerador / denominador 
+        divisao = float(numerador) / denominador 
         print(f'Divisao = {divisao}')
