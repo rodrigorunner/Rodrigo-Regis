@@ -2,8 +2,6 @@
 
 🤓 Habilidades: <strong>HTML5</strong>, <strong>CSS3</strong> e <strong>JavaScript</strong>
 
-![Rodrigo Regis GitHub stats](https://github-readme-stats.vercel.app/api?username=rodrigorunner&show_icons=true&theme=radical)
-
 <hr>
 
 <strong>Tecnologias que uso no meu dia</strong><br> 
