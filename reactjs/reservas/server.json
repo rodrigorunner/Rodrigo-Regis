@@ -16,21 +16,21 @@
     "trips": [
       {
         "id": 1,
-        "title": "Califórnia 7 noites",
+        "title": "Califórnia",
         "status": true,
         "image": "https://images.pexels.com/photos/8297346/pexels-photo-8297346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
         "id": 4,
-        "title": "Caribe 5 noites",
+        "title": "Caribe",
         "status": true,
         "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
         "id": 22,
-        "title": "Fernando de Noronha 10 noites",
+        "title": "Fiji",
         "status": true,
-        "image": "https://images.pexels.com/photos/4319569/pexels-photo-4319569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "image": "https://images.pexels.com/photos/9482122/pexels-photo-9482122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       }
     ]
   }
