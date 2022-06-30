@@ -1,6 +1,6 @@
 Reserve uma viagem e selecione a quantidade, o objetivo é gerenciar estado global com o Redux e Redux Saga para realizar comunicação assíncrona.
 
-![reservas](https://user-images.githubusercontent.com/55710562/176753099-d24ee7ec-136e-4c59-b7f9-4ea40b4a0d87.png)
+
 
 <h1>Instalação</h1>
 
