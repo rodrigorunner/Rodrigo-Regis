@@ -17,7 +17,7 @@ const geradorFrase = () => {
   return (
     <div className="container">
       <h1>Running Motivation</h1>
-      <img src={require('./assets/shoes.gif')} />
+      <img src={require('./assets/shoes.gif')} alt='Foto de um tênis comendo uma mosca' />
       <Botao texto={'Gerar Frase'}  frase={geradorFrase}/>
       <h3>{text}</h3>
     </div>
