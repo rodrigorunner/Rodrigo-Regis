@@ -1,5 +1,7 @@
 Reserve uma viagem e selecione a quantidade, o objetivo é gerenciar estado global com o Redux e Redux Saga para realizar comunicação assíncrona.
+API criada localmente e o projeto usa json-server para servir o serviço.
 
+![trip](https://user-images.githubusercontent.com/55710562/176753467-9eb9bf30-caea-4cc9-aa8f-8abd676280cb.png)
 
 
 <h1>Instalação</h1>
