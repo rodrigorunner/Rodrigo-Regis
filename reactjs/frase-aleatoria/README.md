@@ -9,6 +9,6 @@ Gere frases motivacinais para te incentivar correr distância maiores todos os d
 <ul>
   <li>Primeiro clone o repositório na sua máquina local</li>
   <li>Instale os pacotes do projeto rodando <strong>npm install</strong></li>
-  <li>Inicie o servidor <strong>npm start</strong></li>
+  <li>Inicie o servidor com o comando <strong>npm start</strong></li>
 </ul>
 
