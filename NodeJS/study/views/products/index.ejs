@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../public/css/style.css">
+  
+  <title>Home</title>
+</head>
+<body>
+  <h1><%= category %> conteudos</h1>
+  <ul>
+    <% for(let content of contents) { %>
+      <li>
+        <strong><%= content.name %></strong> |
+        <span><%= content.category  %></span>
+
+        <div>
+          <a href="/home/<%= content._id %>">Detalhes</a> |
+          <a href="/home/<%= content._id %>/edit">Editar</a>
+
+          <form action="/home/<%= content._id %>?_method=DELETE" method="POST">
+            <button>Deletar</button>
+          </form>
+        </div>
+      </li>
+    <% } %>
+  </ul>
+
+  <a href="home/new">Cadastrar</a>
+  <% if(category !== 'Todos') { %>
+    <a href="home">Todos Conteudos</a>
+  <% } %>
+  
+</body>
+</html>
