@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    width: 100%;
+}
+
+nav {
+   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+a.header {
+    text-decoration: none;
+}
+
+svg {
+    font-size: 40px;
+    margin: 6px 0;
+}

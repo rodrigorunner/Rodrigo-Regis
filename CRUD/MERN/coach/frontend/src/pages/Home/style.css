@@ -1,0 +1,11 @@
+span.red {
+    color: red;
+}
+
+span.text {
+    text-decoration: underline;
+}
+
+.circle {
+    font-size: 20px;
+}

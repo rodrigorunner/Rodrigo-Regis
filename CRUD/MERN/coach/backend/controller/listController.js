@@ -7,6 +7,17 @@ const getList = asyncHandler(async (req, res) => {
     res.status(200).json(list)
 })
 
+const getListById = asyncHandler(async (req, res) => {
+    const list = await List.findById(req.params.id)
+
+    if(!list) {
+        res.status(400)
+        throw new Error('This is does not exists.')
+    }
+
+    res.status(200).json(list)
+})
+
 const createList = asyncHandler(async (req, res) => {
     if(!req.body.nome || !req.body.sobrenome || !req.body.email || !req.body.idade) {
         res.status(400)
@@ -53,5 +64,6 @@ module.exports = {
     getList,
     createList,
     updateList,
-    deleteList
+    deleteList,
+    getListById
 }

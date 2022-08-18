@@ -4,10 +4,11 @@ const {
     getList,
     createList,
     updateList,
-    deleteList
+    deleteList,
+    getListById
 } = require('../controller/listController')
 
 router.route('/').get(getList).post(createList)
-router.route('/:id').put(updateList).delete(deleteList)
+router.route('/:id').put(updateList).delete(deleteList).get(getListById)
 
 module.exports = router 
