@@ -1,9 +1,9 @@
 const mongoose = require('mongoose')
 
 const postSchema = mongoose.Schema({
-    titulo: {
+    nome: {
         type: String,
-        require: [true, 'Please add a title.']
+        require: [true, 'Please add a name.']
     },
     comentario: {
         type: String,

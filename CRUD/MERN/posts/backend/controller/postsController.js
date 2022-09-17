@@ -14,13 +14,13 @@ const getPostId = asyncHandler(async (req, res) => {
 })
 
 const createPost = asyncHandler(async (req, res) => {
-    if(!req.body.titulo || !req.body.comentario) {
+    if(!req.body.nome || !req.body.comentario) {
         res.status(400)
         throw new Error('Please add a text.')
     }
 
     const createPost = await Post.create({
-        titulo: req.body.titulo,
+        nome: req.body.nome,
         comentario: req.body.comentario
     })
 
