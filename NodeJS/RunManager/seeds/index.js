@@ -24,6 +24,7 @@ const seedDB = async () => {
         const race = new Race({
             country: `${places[i].country}`,
             location: `${places[i].race}, ${places[i].state}`,
+            description: `${places[i].description}`
         })
         const res = await race.save()
         console.log(res)
@@ -31,3 +32,6 @@ const seedDB = async () => {
     }
 }
 seedDB()
+.then(() => {
+    mongoose.connection.close()
+})

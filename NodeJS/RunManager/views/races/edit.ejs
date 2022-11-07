@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunManager | Editando sua performance.</title>
+</head>
+<body>
+    <h1>Editar</h1>
+
+    <form action="/races/<%= races._id %>?_method=PUT" method="POST">
+        <div>
+            <label for="location">Prova</label>
+            <input type="text" id="location" name="races[location]" value="<%= races.location %>">
+        </div>
+        <div>
+            <label for="country">País</label>
+            <input type="text" id="country" name="races[country]" value="<%= races.country %>">
+        </div>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
