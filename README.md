@@ -1,6 +1,6 @@
 ✌ Olá meu nome é Rodrigo Regis. Sou estudante de <strong>Web Development</strong>
 
-🤓 Habilidades: <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong>, <strong>NodeJS</strong>
+🤓 Habilidades: <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong>, <strong>NodeJS</strong> e <strong>SQL Database</strong>
 
 <hr>
 
