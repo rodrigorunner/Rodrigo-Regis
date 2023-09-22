@@ -1,3 +1,5 @@
 20230921	10:25:46	9d5c0672-a3fe-4345-865e-5f32dcac417b	Error: Not Allwed by CORS.
 20230921	10:25:46	9bd30bfb-da37-4d7a-be46-f463b243e852	Error: Not Allwed by CORS.
 20230921	10:27:22	8f5894ca-9d96-4bc9-b3e3-7e0eb442c52e	Error: Not Allwed by CORS.
+20230922	09:13:52	94ecb1b4-b0c7-465b-889c-ac588124c7a8	Error: ENOENT: no such file or directory, stat '/home/runner/Documentos/Rodrigo-Regis/nodejs/WebService/routes/views/index.html'
+20230922	09:14:47	67c61c9e-b5e1-4ff7-9a71-ab6ed9df87ce	Error: ENOENT: no such file or directory, stat '/home/runner/Documentos/Rodrigo-Regis/nodejs/WebService/routes/views/new-page.html'

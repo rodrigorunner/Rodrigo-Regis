@@ -35,50 +35,13 @@ app.use(express.json())
 
 // serve static files
 app.use(express.static(path.join(__dirname, '/public')))
+// set express to use the css of the subdir
+app.use('/subdir', express.static(path.join(__dirname, '/public')))
 
-// set the views directory.
-app.set('views', path.join(__dirname, 'view'))
-
-app.get('^/$|/index(.html)?', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', 'index.html'))
-})
-
-app.get('/new-page(.html)?', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', 'new-page.html'))
-})
-
-app.get('/subdir', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', '/subdir'))
-})
-
-app.get('/old-page(.html)?', (req, res) => {
-    res.redirect(301, '/new-page.html')
-})
-
-// route handlers
-app.get('/hello(.html)?', (req, res, next) => {
-    console.log('Calling the next function on the tree')
-    next()
-}, (req, res) => {
-    res.send('I am the last one man in the whole world.')
-})
-
-const one = (req, res, next) => {
-    console.log('One.')
-    next()
-}
-
-const two = (req, res, next) => {
-    console.log('Two.')
-    next()
-}
-
-const three = (req, res) => {
-    console.log('Three.')
-    res.send('End of the road')
-}
-
-app.get('/chain', [one, two, three])
+// routes
+app.use('/', require('./routes/root'))
+app.use('/subdir', require('./routes/subdir'))
+app.use('/employees', require('./routes/api/employees'))
 
 app.all('*', (req, res) => {
     res.status(404)
