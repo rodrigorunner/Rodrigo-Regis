@@ -1,0 +1,3 @@
+20230921	10:25:46	9d5c0672-a3fe-4345-865e-5f32dcac417b	Error: Not Allwed by CORS.
+20230921	10:25:46	9bd30bfb-da37-4d7a-be46-f463b243e852	Error: Not Allwed by CORS.
+20230921	10:27:22	8f5894ca-9d96-4bc9-b3e3-7e0eb442c52e	Error: Not Allwed by CORS.
